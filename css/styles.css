@@ -572,7 +572,7 @@ input::placeholder {
 }
 
 .modal-window-element-box-text:focus + .modal-window-element-box-icon {
-    border-color: #4D5AE5; 
+    border-color: #4D5AE5;
     fill: #4D5AE5;
 }
 
@@ -652,6 +652,7 @@ input::placeholder {
     display: block;
     min-width: 169px;
     height: 56px;
+    margin: auto;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     gap: 10px;
@@ -667,11 +668,11 @@ input::placeholder {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  }
 
- .modal-window-text-element-input:checked + .modal-window-text-element-label .modal-window-text-element-privacy {
+ .modal-window-text-element-input:checked + .modal-window-text-element-label + .modal-window-text-element-privacy {
     background-color: #404bbf;
     border: none;
 }
 
-.modal-window-text-element-input:checked + .modal-window-text-element-label .modal-window-text-element-privacy-icon {
+.modal-window-text-element-input:checked + .modal-window-text-element-label + .modal-window-text-element-privacy-icon {
     fill: #F4F4FD;
 }
