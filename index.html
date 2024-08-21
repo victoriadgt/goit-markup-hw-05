@@ -492,6 +492,7 @@
             <label class="footer-form-label">
               <input
                 name="email-box"
+                type="email"
                 placeholder="E-mail"
                 class="footer-emailbox"
               />
@@ -506,5 +507,95 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-window-container">
+      <div class="modal-window">
+        <button type="button" class="modal-window-close-button">
+          <svg width="8" height="8" class="modal-window-close-icon">
+            <use href="./images/icons.svg#icon-close-icon"></use>
+          </svg>
+        </button>
+        <div class="modal-window-parag">
+          <p>Leave your contacts and we will call you back</p>
+        </div>
+        <form>
+          <div class="modal-window-form">
+            <label for="user-name" class="modal-window-label">Name</label>
+            <div class="modal-window-element-box">
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="modal-window-element-box-text"
+              />
+              <svg width="18" height="24" class="modal-window-element-box-icon">
+                <use href="./images/icons.svg#icon-contact-name"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-window-form">
+            <label for="phone" class="modal-window-label">Phone</label>
+            <div class="modal-window-element-box">
+              <input
+                id="phone"
+                name="phone"
+                type="text"
+                class="modal-window-element-box-text"
+              />
+              <svg width="18" height="24" class="modal-window-element-box-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-window-form">
+            <label for="email" class="modal-window-label">Email</label>
+            <div class="modal-window-element-box">
+              <input
+                id="email"
+                name="email"
+                type="text"
+                class="modal-window-element-box-text"
+              />
+              <svg width="18" height="24" class="modal-window-element-box-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-window-form-comment">
+            <label for="user-comment" class="modal-window-label">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="modal-window-textare"
+            ></textarea>
+          </div>
+          <div class="modal-window-text-element">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="modal-window-text-element-input visually-hidden"
+            />
+            <label for="user-privacy" class="modal-window-text-element-label"
+              >I accept the terms and conditions of the
+              <span class="modal-window-text-element-privacy">
+                <svg
+                  width="10"
+                  height="8"
+                  class="modal-window-text-element-privacy-icon"
+                >
+                  <use href="./images/icons.svg"></use></svg
+              ></span>
+              <a href="#" class="modal-window-text-element-privacy-link"
+                >Privacy Policy</a
+              >
+            </label>
+          </div>
+          <button class="modal-window-send-button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
