@@ -676,6 +676,6 @@ input::placeholder {
     border: none;
 }
 
-.modal-window-text-element-input:checked .modal-window-text-element-label .modal-window-text-element-privacy-icon {
+.modal-window-text-element-input:checked .modal-window-text-element-privacy-icon {
     fill: #F4F4FD;
 }
