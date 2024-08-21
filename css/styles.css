@@ -667,7 +667,8 @@ input::placeholder {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  }
 
- .modal-window-text-element-input:checked .modal-window-text-element-privacy{
+ .modal-window-text-element-input:checked + .modal-window-text-element-label + .modal-window-text-element-privacy {
+    background-color: #404bbf;
     border: none; 
     fill: #F4F4FD;
  }
